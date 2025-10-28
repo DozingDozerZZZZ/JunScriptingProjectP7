@@ -17,13 +17,17 @@ public class BehaviorComponet : MonoBehaviour
         {
             GetComponent<Renderer>().material.color = Color.red;
         }
-        if (Input.GetKeyDown(Keycode.G))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             GetComponent<Renderer>().material.color = Color.green;
         }
-        if(Input.GetKeyDown(Keycode.B))
+        if (Input.GetKeyDown(KeyCode.B))
         {
-
+            GetComponent<Renderer>().material.color = Color.blue;
+        }
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            GetComponent<Renderer>().material.color = Color.yellow;
         }
     }
 
