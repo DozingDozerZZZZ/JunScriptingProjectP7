@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ScopeAndAcessModifers : MonoBehaviour
 {
-    public int alpha = 5:
+    public int alpha = 5;
 
-        private int beta = 0;
+    private int beta = 0;
     private int gamma = 5;
 
     private AnotherClass myOtherClass;
@@ -17,10 +17,10 @@ public class ScopeAndAcessModifers : MonoBehaviour
         alpha = 29;
 
         myOtherClass = new AnotherClass();
-        myOtherClass.FruitMachine(alpha,myOtherClass.apples)
+        myOtherClass.FruitMachine(alpha, myOtherClass.apples);
     }
 
-    void Example (int pens, int crayons)
+    void Example(int pens, int crayons)
     {
         int answer;
         answer = pens * crayons * alpha;
@@ -29,6 +29,6 @@ public class ScopeAndAcessModifers : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Alpha is set to: " +alpha);
+        Debug.Log("Alpha is set to: " + alpha);
     }
 }

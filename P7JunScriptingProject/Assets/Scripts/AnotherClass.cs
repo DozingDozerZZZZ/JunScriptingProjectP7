@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AnotherClass : MonoBehaviour
 {
-    public int apples;
-    public int bananas:
+    public int apples = 20;
+    public int bananas = 9;
 
     private int stapler;
     private int sellotape;
